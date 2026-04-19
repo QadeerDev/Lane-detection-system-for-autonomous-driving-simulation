@@ -2,7 +2,7 @@
 
 > Draw your own ROI. Lock it. Watch the pipeline run.
 
-A real-time lane detection system built with pure Computer Vision — no deep learning, no pretrained weights, no dataset required to get started. You draw the region of interest on the first frame, and the system focuses only on that area from that point on.
+A real-time lane detection system built with pure Computer Vision no deep learning, no pretrained weights, no dataset required to get started. You draw the region of interest on the first frame, and the system focuses only on that area from that point on.
 
 ---
 
@@ -87,10 +87,10 @@ No GPU needed. Runs on any laptop with a webcam or a video file.
 ## Quickstart
 
 ```bash
-git clone https://github.com/QadeerDev/lane-detection-sim
-cd lane-detection-sim
+git clone https://github.com/QadeerDev/Lane-detection-system-for-autonomous-driving-simulation
+cd Lane-detection-system-for-autonomous-driving-simulation
 pip install -r requirements.txt
-python lane_detection.py
+python main.py
 ```
 
 Choose a mode:
@@ -120,9 +120,8 @@ Generates a perspective road with dashed center lines and solid lane markers. Us
 ## Project Structure
 
 ```
-lane-detection-sim/
+Lane-detection-system-for-autonomous-driving-simulation/
 ├── lane_detection.py      ← single-file implementation
-├── requirements.txt
 ├── output/                ← saved .mp4 and .png results
 └── README.md
 ```
